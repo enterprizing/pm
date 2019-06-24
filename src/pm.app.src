@@ -1,0 +1,9 @@
+{application, pm,
+ [
+  {description, "PM Project Management"},
+  {vsn, "0.6.0"},
+  {registered, []},
+  {applications, [kernel,stdlib]},
+  {mod, { pm, []}},
+  {env, []}
+ ]}.
